@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         actions: [
           IconButton(
-              onPressed: () {},
+              onPressed: () {print ('hello'},
               icon: Icon(
                 FontAwesomeIcons.cartPlus,
                 color: Colors.black,
